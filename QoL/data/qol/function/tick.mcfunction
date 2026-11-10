@@ -1,7 +1,8 @@
 # trees stuff
-execute as @a as @s run function qol:trees/cut_tree
+# warn-off execute-group
+execute as @a run function qol:trees/cut_tree
 
 # ores stuff
-execute as @a as @s run function qol:common_ores_mining/mine_ores
+execute as @a run function qol:common_ores_mining/mine_ores
 #
 
