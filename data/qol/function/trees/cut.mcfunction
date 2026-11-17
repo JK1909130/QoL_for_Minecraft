@@ -1,3 +1,6 @@
+# warn-off-file target-selector-type-order
+# warn-off-file execute-run-redundant-run-execute
+# warn-off-file execute-group
 execute at @s run execute at @e[type=item,nbt={Item:{id:"minecraft:oak_log"}},distance=..30] run fill ~-1 ~ ~-1 ~1 ~1 ~1 air replace oak_log destroy
 
 execute at @s run execute at @e[type=item,nbt={Item:{id:"minecraft:birch_log"}},distance=..30] run fill ~-1 ~ ~-1 ~1 ~1 ~1 air replace birch_log destroy

@@ -29,7 +29,7 @@ scoreboard objectives add Dir1 dummy
 # dimension
 scoreboard objectives add dimension dummy
 # updates coords every 0.5 sec
-function qol:coords_dir.mcfunction/update
+function qol:coords_dir/update
 
 # death location
 scoreboard objectives add dead deathCount
