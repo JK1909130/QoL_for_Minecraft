@@ -1,4 +1,5 @@
-{ "values": ["minecraft:grass_block",
+{ "values": [
+ "minecraft:grass_block",
  "minecraft:dirt",
  "minecraft:podzol",
  "minecraft:farmland",
