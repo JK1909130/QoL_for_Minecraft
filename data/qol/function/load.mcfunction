@@ -48,3 +48,6 @@ function qol:passive_mob_egg/check_kill_score
 
 # concrete powder conversion
 function qol:powder_to_concrete/powder_in_water
+
+# auto crop plant
+function qol:crop_plant/crop_check
